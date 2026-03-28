@@ -1,0 +1,56 @@
+[
+  {
+    "nom": "Non enregistré",
+    "devise": "CAD",
+    "positions": [
+      { "symbole": "ENB.TO", "compagnie": "ENBRIDGE INC", "cout": "61,33" },
+      { "symbole": "FTS.TO", "compagnie": "FORTIS INC", "cout": "64,30" },
+      { "symbole": "GRL.TO", "compagnie": "GREENLIGHT METALS INC", "cout": "0,2767" },
+      { "symbole": "RY.TO", "compagnie": "BANQUE ROYALE DU CANADA", "cout": "214,99" },
+      { "symbole": "SU.TO", "compagnie": "SUNCOR ENERGY INC", "cout": "51,83" },
+      { "symbole": "VCN.TO", "compagnie": "VANGUARD FTSE CDA ALL ETF", "cout": "55,99" }
+    ]
+  },
+  {
+    "nom": "CELI",
+    "devise": "USD",
+    "positions": [
+      { "symbole": "AMZN", "compagnie": "AMAZON COM INC", "cout": "205,00" },
+      { "symbole": "NFLX", "compagnie": "NETFLIX INC", "cout": "77,50" }
+    ]
+  },
+  {
+    "nom": "CELI",
+    "devise": "CAD",
+    "positions": [
+      { "symbole": "BMO.TO", "compagnie": "BANQUE DE MONTREAL", "cout": "195,65" },
+      { "symbole": "CWW.TO", "compagnie": "ISHARES GLB WATER IDX-ETF", "cout": "64,78" },
+      { "symbole": "GRL.V", "compagnie": "GREENLIGHT METALS INC", "cout": "0,3275" },
+      { "symbole": "MDA.TO", "compagnie": "MDA SPACE LTD", "cout": "32,61" },
+      { "symbole": "VCN.TO", "compagnie": "VANGUARD FTSE CDA ALL ETF", "cout": "47,91" },
+      { "symbole": "VEE.TO", "compagnie": "VANGUARD FTSE E/M ALL CAP", "cout": "43,71" },
+      { "symbole": "XEF.TO", "compagnie": "ISHRS CORE MSCI EAFE IMI", "cout": "46,23" },
+      { "symbole": "ZSP.TO", "compagnie": "BMO S&P 500 INDEX ETF C$", "cout": "86,89" }
+    ]
+  },
+  {
+    "nom": "REER",
+    "devise": "CAD",
+    "positions": [
+      { "symbole": "XEI.TO", "compagnie": "ISHR S&PTSX CMP HI DV ETF", "cout": "32,15" }
+    ]
+  },
+  {
+    "nom": "REER",
+    "devise": "USD",
+    "positions": [
+      { "symbole": "BRK.B", "compagnie": "BERKSHIRE HATHAWAY-B", "cout": "434,27" },
+      { "symbole": "COLD", "compagnie": "AMERICOLD REALTY TR INC", "cout": "12,97" },
+      { "symbole": "CORZ", "compagnie": "CORE SCIENTIFIC INC", "cout": "17,55" },
+      { "symbole": "MCD", "compagnie": "MCDONALDS CORP", "cout": "282,60" },
+      { "symbole": "MSFT", "compagnie": "MICROSOFT CORP", "cout": "397,64" },
+      { "symbole": "VB", "compagnie": "VANGUARD SMALL-CAP ETF", "cout": "257,67" },
+      { "symbole": "VXUS", "compagnie": "VANGUARD TOT INTL STK ETF", "cout": "75,00" }
+    ]
+  }
+]

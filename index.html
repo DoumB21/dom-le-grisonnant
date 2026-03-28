@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dom le Grisonnant</title>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+  <!-- Meta description for search engines -->
+  <meta name="description" content="Je partage mon portefeuille d’investissement personnel et mon parcours financier.">
+
+  <!-- Open Graph tags for Facebook / social sharing -->
+  <meta property="og:title" content="Dom le Grisonnant - Portefeuille d’investissement">
+  <meta property="og:description" content="Suivi transparent de mon portefeuille et de mes objectifs financiers.">
+  <meta property="og:url" content="https://domlegrisonnant.com">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://domlegrisonnant.com/preview.png">
+
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+/* ================= HEADER ================= */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #0f172a;
+    color: white;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.header-left img {
+    height: 100px;
+    width: auto;
+}
+
+.brand h1 {
+    margin: 0;
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    margin: 6px 0 0 0;
+    font-size: 0.95rem;
+    color: #94a3b8;
+}
+
+.facebook-link {
+    font-size: 0.9rem;
+    color: #e2e8f0;
+    text-decoration: none;
+    border: 1px solid #334155;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.facebook-link:hover {
+    background: #1e293b;
+}
+
+
+/* ================= DISCLAIMER ================= */
+
+.disclaimer {
+    background-color: #f1f5f9;
+    padding: 14px 40px;
+    font-size: 0.85rem;
+    color: #475569;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* ================= CONTENU ================= */
+
+.container {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Boutons type de compte */
+.account-type {
+    padding: 14px 20px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #0f172a;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.25s ease;
+}
+
+.account-type:hover {
+    background: #1e293b;
+}
+
+.account-type.active {
+    background: #e2e8f0;
+    color: #0f172a;
+}
+
+.devise {
+    color: #94a3b8;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Tableau */
+.table-panel {
+    margin: 0 10px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.35s ease;
+}
+
+.table-panel.open {
+    max-height: 600px;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+th, td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+    background: #334155;
+    color: white;
+    text-align: left;
+    font-weight: 500;
+}
+
+td.cout, th.cout {
+    text-align: right;
+    font-weight: 500;
+}
+
+tr:hover {
+    background: #f8fafc;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 0.8rem;
+    color: #94a3b8;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .header-left {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header-left img {
+        height: 70px;
+    }
+
+    .facebook-link {
+        width: 100%;
+        max-width: 260px;
+        text-align: center;
+    }
+
+    .disclaimer {
+        padding: 15px 20px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<header class="main-header">
+
+    <div class="header-left">
+        <img src="logo.png" alt="Logo Dom le Grisonnant">
+        <div class="brand">
+            <h1>Dom le Grisonnant</h1>
+            <p class="subtitle">Portefeuille d'investissement personnel</p>
+        </div>
+    </div>
+
+    <a class="facebook-link" 
+       href="https://www.facebook.com/DomLeGrisonnant" 
+       target="_blank">
+        Page Facebook officielle
+    </a>
+
+</header>
+
+<div class="disclaimer">
+    <strong>Avis important :</strong>
+    Les informations présentées sur ce site sont partagées à des fins de transparence et de suivi personnel uniquement.
+    Elles ne constituent pas un conseil financier ni une recommandation d’investissement.
+    Chaque investisseur doit effectuer ses propres recherches et consulter un professionnel qualifié.
+</div>
+
+<div class="container" id="portfolio-container"></div>
+
+<footer>
+    © 2026 Dom le Grisonnant — Transparence et discipline d'investissement
+</footer>
+
+<script>
+fetch('portfolio.json?v=' + new Date().getTime())
+  .then(response => response.json())
+  .then(portfolioData => {
+      const container = document.getElementById('portfolio-container');
+
+      portfolioData.forEach(account => {
+
+          const panelId = (account.nom + '-' + account.devise).replace(/\s+/g, '-');
+
+          const btn = document.createElement('div');
+          btn.className = 'account-type';
+          btn.dataset.panel = panelId;
+          btn.innerHTML = `${account.nom} <span class="devise">(${account.devise})</span>`;
+
+          const panel = document.createElement('div');
+          panel.className = 'table-panel';
+          panel.id = panelId;
+
+          const table = document.createElement('table');
+          table.innerHTML = `
+              <thead>
+                  <tr>
+                      <th>Symbole</th>
+                      <th>Compagnie</th>
+                      <th class="cout">Coût moyen</th>
+                  </tr>
+              </thead>
+          `;
+
+          const tbody = document.createElement('tbody');
+
+          account.positions.forEach(item => {
+              const row = document.createElement('tr');
+              row.innerHTML = `
+                  <td>${item.symbole}</td>
+                  <td>${item.compagnie}</td>
+                  <td class="cout">${item.cout}</td>
+              `;
+              tbody.appendChild(row);
+          });
+
+          table.appendChild(tbody);
+          panel.appendChild(table);
+
+          container.appendChild(btn);
+          container.appendChild(panel);
+      });
+
+      const accountButtons = document.querySelectorAll('.account-type');
+
+      accountButtons.forEach(btn => {
+          btn.addEventListener('click', () => {
+
+              const panel = document.getElementById(btn.dataset.panel);
+
+              document.querySelectorAll('.table-panel').forEach(p => {
+                  if (p !== panel) p.classList.remove('open');
+              });
+
+              accountButtons.forEach(b => b.classList.remove('active'));
+
+              if (panel.classList.contains('open')) {
+                  panel.classList.remove('open');
+              } else {
+                  panel.classList.add('open');
+                  btn.classList.add('active');
+              }
+          });
+      });
+  })
+  .catch(err => console.error('Erreur en chargeant portfolio.json:', err));
+</script>
+
+</body>
+</html>
