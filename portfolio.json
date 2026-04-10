@@ -5,7 +5,7 @@
     "positions": [
       { "symbole": "ENB.TO", "compagnie": "ENBRIDGE INC", "cout": "61,33" },
       { "symbole": "FTS.TO", "compagnie": "FORTIS INC", "cout": "64,30" },
-      { "symbole": "GRL.TO", "compagnie": "GREENLIGHT METALS INC", "cout": "0,2767" },
+      { "symbole": "GRL.V", "compagnie": "GREENLIGHT METALS INC", "cout": "0,2767" },
       { "symbole": "RY.TO", "compagnie": "BANQUE ROYALE DU CANADA", "cout": "214,99" },
       { "symbole": "SU.TO", "compagnie": "SUNCOR ENERGY INC", "cout": "51,83" },
       { "symbole": "VCN.TO", "compagnie": "VANGUARD FTSE CDA ALL ETF", "cout": "55,99" }
