@@ -45,8 +45,6 @@
     "devise": "USD",
     "positions": [
       { "symbole": "BRK.B", "compagnie": "BERKSHIRE HATHAWAY-B", "cout": "434,27" },
-      { "symbole": "COLD", "compagnie": "AMERICOLD REALTY TR INC", "cout": "12,97" },
-      { "symbole": "CORZ", "compagnie": "CORE SCIENTIFIC INC", "cout": "17,55" },
       { "symbole": "MCD", "compagnie": "MCDONALDS CORP", "cout": "282,60" },
       { "symbole": "MSFT", "compagnie": "MICROSOFT CORP", "cout": "397,64" },
       { "symbole": "VB", "compagnie": "VANGUARD SMALL-CAP ETF", "cout": "257,67" },
