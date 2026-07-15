@@ -3,52 +3,60 @@
     "nom": "Non enregistré",
     "devise": "CAD",
     "positions": [
-      { "symbole": "ENB.TO", "compagnie": "ENBRIDGE INC", "cout": "61,33" },
-      { "symbole": "FTS.TO", "compagnie": "FORTIS INC", "cout": "64,30" },
-      { "symbole": "GRL.V", "compagnie": "GREENLIGHT METALS INC", "cout": "0,2767" },
-      { "symbole": "RY.TO", "compagnie": "BANQUE ROYALE DU CANADA", "cout": "214,99" },
-      { "symbole": "SU.TO", "compagnie": "SUNCOR ENERGY INC", "cout": "51,83" },
-      { "symbole": "VCN.TO", "compagnie": "VANGUARD FTSE CDA ALL ETF", "cout": "55,99" }
-    ]
-  },
-  {
-    "nom": "CELI",
-    "devise": "USD",
-    "positions": [
-      { "symbole": "AMZN", "compagnie": "AMAZON COM INC", "cout": "205,00" },
-      { "symbole": "NFLX", "compagnie": "NETFLIX INC", "cout": "77,50" }
+      { "symbole": "ATD.TO", "compagnie": "ALIMENTATION COUCHE-TARD", "cout": "91,41", "quantite": "85" },
+      { "symbole": "CNR.TO", "compagnie": "CANADIAN NATIONAL RAILWAY", "cout": "169,95", "quantite": "45" },
+      { "symbole": "DOL.TO", "compagnie": "DOLLARAMA INC", "cout": "190,05", "quantite": "40" },
+      { "symbole": "ENB.TO", "compagnie": "ENBRIDGE INC", "cout": "61,33", "quantite": "200" },
+      { "symbole": "FTS.TO", "compagnie": "FORTIS INC", "cout": "74,74", "quantite": "250" },
+      { "symbole": "GRL.V", "compagnie": "GREENLIGHT METALS INC", "cout": "0,2767", "quantite": "15000" },
+      { "symbole": "RY.TO", "compagnie": "BANQUE ROYALE DU CANADA", "cout": "214,99", "quantite": "50" },
+      { "symbole": "VCN.TO", "compagnie": "VANGUARD FTSE CDA ALL ETF", "cout": "64,28", "quantite": "600" }
     ]
   },
   {
     "nom": "CELI",
     "devise": "CAD",
     "positions": [
-      { "symbole": "BMO.TO", "compagnie": "BANQUE DE MONTREAL", "cout": "195,65" },
-      { "symbole": "CWW.TO", "compagnie": "ISHARES GLB WATER IDX-ETF", "cout": "64,78" },
-      { "symbole": "GRL.V", "compagnie": "GREENLIGHT METALS INC", "cout": "0,3275" },
-      { "symbole": "MDA.TO", "compagnie": "MDA SPACE LTD", "cout": "32,61" },
-      { "symbole": "VCN.TO", "compagnie": "VANGUARD FTSE CDA ALL ETF", "cout": "47,91" },
-      { "symbole": "VEE.TO", "compagnie": "VANGUARD FTSE E/M ALL CAP", "cout": "43,71" },
-      { "symbole": "XEF.TO", "compagnie": "ISHRS CORE MSCI EAFE IMI", "cout": "46,23" },
-      { "symbole": "ZSP.TO", "compagnie": "BMO S&P 500 INDEX ETF C$", "cout": "86,89" }
+      { "symbole": "BMO.TO", "compagnie": "BANQUE DE MONTREAL", "cout": "195,65", "quantite": "65" },
+      { "symbole": "CWW.TO", "compagnie": "ISHARES GLB WATER IDX-ETF", "cout": "66,01", "quantite": "150" },
+      { "symbole": "GRL.V", "compagnie": "GREENLIGHT METALS INC", "cout": "0,3275", "quantite": "10000" },
+      { "symbole": "MDA.TO", "compagnie": "MDA SPACE LTD", "cout": "42,09", "quantite": "250" },
+      { "symbole": "SPCX.TO", "compagnie": "SPACE EXP TECH CDR C$HDG", "cout": "28,75", "quantite": "100" },
+      { "symbole": "VCN.TO", "compagnie": "VANGUARD FTSE CDA ALL ETF", "cout": "48,26", "quantite": "350" },
+      { "symbole": "VEE.TO", "compagnie": "VANGUARD FTSE E/M ALL CAP", "cout": "44,07", "quantite": "700" },
+      { "symbole": "VIU.TO", "compagnie": "VANGUARD FTSE Dev AC ex Nrth Amer ETF", "cout": "50,40", "quantite": "650" },
+      { "symbole": "ZSP.TO", "compagnie": "BMO S&P 500 INDEX ETF C$", "cout": "101,58", "quantite": "100" }
+    ]
+  },
+  {
+    "nom": "CELI",
+    "devise": "USD",
+    "positions": [
+      { "symbole": "AMZN", "compagnie": "AMAZON COM INC", "cout": "205,00", "quantite": "90" },
+      { "symbole": "NFLX", "compagnie": "NETFLIX INC", "cout": "77,50", "quantite": "125" },
+      { "symbole": "SPCX", "compagnie": "SPACE EXPLRTN TECH CRP-AL", "cout": "164,94", "quantite": "2" }
     ]
   },
   {
     "nom": "REER",
     "devise": "CAD",
     "positions": [
-      { "symbole": "XEI.TO", "compagnie": "ISHR S&PTSX CMP HI DV ETF", "cout": "32,15" }
+      { "symbole": "GRL.V", "compagnie": "GREENLIGHT METALS INC", "cout": "0,25", "quantite": "3500" },
+      { "symbole": "VEE.TO", "compagnie": "VANGUARD FTSE E/M ALL CAP", "cout": "52,06", "quantite": "300" },
+      { "symbole": "VIU.TO", "compagnie": "VANGUARD FTSE Dev AC ex Nrth Amer ETF", "cout": "51,12", "quantite": "300" }
     ]
   },
   {
     "nom": "REER",
     "devise": "USD",
     "positions": [
-      { "symbole": "BRK.B", "compagnie": "BERKSHIRE HATHAWAY-B", "cout": "434,27" },
-      { "symbole": "MCD", "compagnie": "MCDONALDS CORP", "cout": "282,60" },
-      { "symbole": "MSFT", "compagnie": "MICROSOFT CORP", "cout": "397,64" },
-      { "symbole": "VB", "compagnie": "VANGUARD SMALL-CAP ETF", "cout": "257,67" },
-      { "symbole": "VXUS", "compagnie": "VANGUARD TOT INTL STK ETF", "cout": "75,00" }
+      { "symbole": "BRK.B", "compagnie": "BERKSHIRE HATHAWAY-B", "cout": "434,27", "quantite": "20" },
+      { "symbole": "MCD", "compagnie": "MCDONALDS CORP", "cout": "282,60", "quantite": "25" },
+      { "symbole": "MSFT", "compagnie": "MICROSOFT CORP", "cout": "395.24", "quantite": "100" },
+      { "symbole": "NFLX", "compagnie": "NETFLIX INC", "cout": "97,84", "quantite": "75" },
+      { "symbole": "OMDA", "compagnie": "OMADA HEALTH INCC", "cout": "16,15", "quantite": "125" },
+      { "symbole": "SPCX", "compagnie": "SPACE EXPLRTN TECH CRP-AL", "cout": "165,25", "quantite": "4" },
+      { "symbole": "VXUS", "compagnie": "VANGUARD TOT INTL STK ETF", "cout": "78,41", "quantite": "400" }
     ]
   }
 ]
