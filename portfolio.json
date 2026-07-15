@@ -21,7 +21,6 @@
       { "symbole": "CWW.TO", "compagnie": "ISHARES GLB WATER IDX-ETF", "cout": "66,01", "quantite": "150" },
       { "symbole": "GRL.V", "compagnie": "GREENLIGHT METALS INC", "cout": "0,3275", "quantite": "10000" },
       { "symbole": "MDA.TO", "compagnie": "MDA SPACE LTD", "cout": "42,09", "quantite": "250" },
-      { "symbole": "SPCX.TO", "compagnie": "SPACE EXP TECH CDR C$HDG", "cout": "28,75", "quantite": "100" },
       { "symbole": "VCN.TO", "compagnie": "VANGUARD FTSE CDA ALL ETF", "cout": "48,26", "quantite": "350" },
       { "symbole": "VEE.TO", "compagnie": "VANGUARD FTSE E/M ALL CAP", "cout": "44,07", "quantite": "700" },
       { "symbole": "VIU.TO", "compagnie": "VANGUARD FTSE Dev AC ex Nrth Amer ETF", "cout": "50,40", "quantite": "650" },
@@ -33,8 +32,7 @@
     "devise": "USD",
     "positions": [
       { "symbole": "AMZN", "compagnie": "AMAZON COM INC", "cout": "205,00", "quantite": "90" },
-      { "symbole": "NFLX", "compagnie": "NETFLIX INC", "cout": "77,50", "quantite": "125" },
-      { "symbole": "SPCX", "compagnie": "SPACE EXPLRTN TECH CRP-AL", "cout": "164,94", "quantite": "2" }
+      { "symbole": "NFLX", "compagnie": "NETFLIX INC", "cout": "77,50", "quantite": "125" }
     ]
   },
   {
@@ -54,8 +52,6 @@
       { "symbole": "MCD", "compagnie": "MCDONALDS CORP", "cout": "282,60", "quantite": "25" },
       { "symbole": "MSFT", "compagnie": "MICROSOFT CORP", "cout": "395.24", "quantite": "100" },
       { "symbole": "NFLX", "compagnie": "NETFLIX INC", "cout": "97,84", "quantite": "75" },
-      { "symbole": "OMDA", "compagnie": "OMADA HEALTH INCC", "cout": "16,15", "quantite": "125" },
-      { "symbole": "SPCX", "compagnie": "SPACE EXPLRTN TECH CRP-AL", "cout": "165,25", "quantite": "4" },
       { "symbole": "VXUS", "compagnie": "VANGUARD TOT INTL STK ETF", "cout": "78,41", "quantite": "400" }
     ]
   }
